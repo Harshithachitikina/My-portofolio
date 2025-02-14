@@ -1,3 +1,5 @@
+
+
 /*General setting*/
 *{
     margin:0;
@@ -14,10 +16,9 @@ body{
     color: darkblue;
     text-align: center;
 }
-/*header& navbar*/
-
+/*header& navbar*/ 
 header{
-    background-color: black;
+    background-color:black;
     position:fixed;
     width: 100%;
     top: 0;
@@ -116,13 +117,13 @@ p{
 }
 h2{
     font-size:2rem;
-    margin bottom:15px;
+    margin-bottom:15px;
 }
 /*skills section*/
 .skill{
     width: 80%;
     max-width:400px;
-    margin:auto ;
+    margin:auto;
     margin-bottom:15px;
 }
 .progress{
@@ -136,7 +137,7 @@ h2{
     height: 100%;
     transition:width 1s;
 }
-.project.container{
+.projects-container{
 display:flex;
 justify-content: center;
 align-items: center;
@@ -146,7 +147,7 @@ margin-top: 10px;
 text-align: center;
 padding: 20px;
 }
-.project- card{
+.project-card{
 background: white;
 padding: 15px;
 border-radius: 8px;
@@ -154,7 +155,12 @@ width: 300px;
 box-shadow: 0 3px 6px rgb(50,50,50);
 transition: transform 0.3s ease-in-out 1s;
 }
-.project -card :hover{
+
+.project-card img{
+    width: 100px;
+    height: 100px;
+}
+.project-card :hover{
    /* transform:translateY(-30px);*/
    transform:rotate(360deg);
    /*transform:scale(2);*/
