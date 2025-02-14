@@ -1,0 +1,198 @@
+/*General setting*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'popins',sans-serif;
+}
+
+
+/*body styling*/
+
+body{
+    background-color: aqua;
+    color: darkblue;
+    text-align: center;
+}
+/*header& navbar*/
+
+header{
+    background-color: black;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    z-index:1000;
+    padding: 10px 0;
+}
+
+/* Navbar container*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding:  0 20px;
+
+}
+.logo{
+    color:rgb(255,255,255);
+    font-size:1.5rem;
+    font-weight: bold;
+}
+/*navigation menu*/
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+
+nav ul{
+    margin:0 10px;
+}
+
+
+nav ul li a{
+    color:#f4f4f4 ;
+    text-decoration: none;
+    font-size:16px ;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color:#0008ff;
+}
+/*responsive navbar-hamburger menu*/
+.menu-toggle{
+    display: none;
+    font-size:25px;
+    color:white;
+    cursor:pointer;
+}
+/*home section*/
+#home{
+
+    background:linear-gradient(120deg,#ff9800,#ff5722);
+    color: white;
+    padding:120px 20px;
+}
+
+.profile-pic{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:3px solid white;
+    margin-bottom:15 px;
+}
+h1{
+    font-size:2rem;
+    font-weight: bold;
+}
+p{
+    font-size: 1.1rem;
+}
+/*button styling*/
+.btn
+{
+    display: inline-block;
+    background: #222;
+    color:white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size:1rem;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background: #ff9800;
+}
+/*about &skills section*/
+#about ,#skills ,#projects ,#contacts{
+    padding: 50px 20px;
+
+}
+h2{
+    font-size:2rem;
+    margin bottom:15px;
+}
+/*skills section*/
+.skill{
+    width: 80%;
+    max-width:400px;
+    margin:auto ;
+    margin-bottom:15px;
+}
+.progress{
+    background: local#ddd;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.progress-bar{
+    background: #ff9800;
+    height: 100%;
+    transition:width 1s;
+}
+.project.container{
+display:flex;
+justify-content: center;
+align-items: center;
+gap:15px;
+flex-wrap: wrap;
+margin-top: 10px;
+text-align: center;
+padding: 20px;
+}
+.project- card{
+background: white;
+padding: 15px;
+border-radius: 8px;
+width: 300px;
+box-shadow: 0 3px 6px rgb(50,50,50);
+transition: transform 0.3s ease-in-out 1s;
+}
+.project -card :hover{
+   /* transform:translateY(-30px);*/
+   transform:rotate(360deg);
+   /*transform:scale(2);*/
+}
+.project-card{
+    margin: 18px;
+}
+/*contact form*/
+
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    max-width:400px;
+    margin:auto;
+}
+
+input,textarea{
+    padding: 8px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+button{
+    background:#222;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background: #ff45ff;
+}
+
+
+
+
+
+
